@@ -1,5 +1,5 @@
 import { PRODUCTS } from '../../products.js';
-import Product from './Product.jsx';
+import Product from './Product';
 
 function Shop() {
   return (

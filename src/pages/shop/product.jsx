@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import PropTypes from 'prop-types';
-import { ShopContext } from '../../context/ShopContext.jsx';
+import { ShopContext } from '../../context/ShopContext';
 
-function Product(props) {
+const Product = (props) => {
   const { id, productName, price, productImage } = props.data;
   const { addToCart, cartItems } = useContext(ShopContext);
 
@@ -18,14 +18,14 @@ function Product(props) {
         <p>${price}</p>
       </div>
       <button
-        onClick={addToCart(id)}
+        onClick={() => addToCart(id)}
         className="border-3 min-w-24 rounded-2xl border-solid border-[131313] bg-transparent px-3 py-1 duration-200 hover:cursor-pointer hover:bg-[#131313] hover:text-white"
       >
         Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
       </button>
     </div>
   );
-}
+};
 
 Product.propTypes = {
   data: PropTypes.shape({
