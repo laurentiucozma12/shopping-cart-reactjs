@@ -4,8 +4,8 @@ import reactIcon from '../../assets/react.svg';
 
 function Shop() {
   return (
-    <main>
-      <div className="mb-4 mt-24 flex justify-center">
+    <main className="my-4">
+      <div className="mb-4 mt-20 flex justify-center">
         <img
           src={reactIcon}
           alt="react icon1"

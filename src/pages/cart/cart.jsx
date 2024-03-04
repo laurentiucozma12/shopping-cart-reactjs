@@ -10,7 +10,7 @@ function Cart() {
   const navigate = useNavigate();
 
   return (
-    <main className="mb-4 mt-4">
+    <main className="my-4">
       <div className="flex items-center justify-center">
         <h1 className="text-center text-5xl font-bold">Your Cart Items</h1>
       </div>
