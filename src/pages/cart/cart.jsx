@@ -31,7 +31,7 @@ function Cart() {
             </p>
             <div className="block sm:flex">
               <button
-                onClick={() => navigate('/')}
+                onClick={() => navigate('/shopping-cart-reactjs/')}
                 className="m-4 block min-w-56 cursor-pointer rounded-lg border-none bg-[#131313] p-3 text-xl font-bold text-white"
               >
                 Continue Shopping
