@@ -6,7 +6,7 @@ import CartItem from './CartItem.jsx';
 
 function Cart() {
   const { cartItems, getTotalCartAmount } = useContext(ShopContext);
-  const totalAmount = getTotalCartAmount();
+  const totalAmount = getTotalCartAmount().toFixed(2);
   const navigate = useNavigate();
 
   return (
