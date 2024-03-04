@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import { ShopContextProvider } from './context/ShopContext';
 
 function App() {
   return (
-    <div className="App">
+    <div id="app" className="App">
       <ShopContextProvider>
         <Router>
           <Navbar />
@@ -16,6 +17,7 @@ function App() {
           </Routes>
         </Router>
       </ShopContextProvider>
+      <Footer />
     </div>
   );
 }

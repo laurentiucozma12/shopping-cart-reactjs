@@ -9,7 +9,7 @@ const Product = (props) => {
   const cartItemAmount = cartItems[id];
 
   return (
-    <div className="flex h-96 w-72 flex-col items-center justify-center rounded-2xl duration-300 hover:cursor-pointer hover:ease-in">
+    <div className="flex w-auto max-w-80 flex-col items-center justify-center rounded-2xl duration-300 hover:cursor-pointer hover:ease-in">
       <img src={productImage} alt={productName} className="w-96" />
       <div className="text-center">
         <p>

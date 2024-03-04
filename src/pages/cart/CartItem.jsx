@@ -8,9 +8,16 @@ export default function CartItem(props) {
     useContext(ShopContext);
 
   return (
-    <div className="m-8 flex h-[250px] w-[700px] items-center rounded-3xl shadow-lg shadow-black">
-      <img src={productImage} alt={productName} className="w-[200px]" />
-      <div className="w-full text-3xl">
+    <div
+      className=" m-4 rounded-3xl p-5 shadow-lg shadow-black 
+                  sm:m-8 sm:flex sm:w-[600px] sm:items-center sm:p-4
+                  xl:w-[700px]"
+    >
+      <img src={productImage} alt={productName} className="w-[200px] sm:mr-4" />
+      <div
+        className=" w-full text-center 
+                    sm:text-left sm:text-3xl"
+      >
         <p>
           <b>{productName}</b>
         </p>
