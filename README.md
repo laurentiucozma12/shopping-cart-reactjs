@@ -4,6 +4,62 @@
 
 - This project is just for learning purpose.
 
+## Start the server
+
+```
+yarn dev
+```
+
+## Commands
+
+- React router
+
+```
+yarn add react-router-dom phosphor-react
+```
+
+- Tailwind
+
+```
+yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
+
+    - Create config file
+    ```
+    npx tailwindcss init
+    ```
+    - tailwind.config.js
+    ```
+        /** @type {import('tailwindcss').Config} */
+        export default {
+            content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+            theme: {
+                extend: { },
+            },
+            plugins: [],
+        };
+    ```
+
+- Prettier
+
+```
+yarn add --dev prettier prettier-plugin-tailwindcss
+yarn add eslint-config-prettier@^9.1.0
+```
+
+    - After running the commands, don't forget to restart Visual Studio Code
+    - Manual format
+    ```
+    yarn prettier --write
+    ```
+    - .prettierrc.json
+    ```
+    {
+        "singleQuote": true,
+        "plugins": ["prettier-plugin-tailwindcss"]
+    }
+    ```
+
 ## Resources
 
 - [React Shopping Cart Ecommerce Beginner Website - Build & Deploy A React Beginner Project](https://www.youtube.com/watch?v=tEMrD9t85v4)
