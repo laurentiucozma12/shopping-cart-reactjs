@@ -1,6 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/> Epic Game News ReactJS <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
-
-# Shopping Cart ReactJs
+# <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/> Shopping Cart ReactJs <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
 
 - This project is just for learning purpose.
 
