@@ -13,7 +13,13 @@ export default function CartItem(props) {
                   sm:m-8 sm:flex sm:w-[600px] sm:items-center sm:p-4
                   xl:w-[700px]"
     >
-      <img src={productImage} alt={productName} className="w-[200px] sm:mr-4" />
+      <div className="flex items-center justify-center">
+        <img
+          src={productImage}
+          alt={productName}
+          className="w-[250px] sm:mr-4"
+        />
+      </div>
       <div
         className=" w-full text-center 
                     sm:text-left sm:text-3xl"
