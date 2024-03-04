@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
+import NoPage from './pages/NoPage';
 import { ShopContextProvider } from './context/ShopContext';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Shop />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/shopping-cart-reactjs/" element={<Shop />} />
+            <Route path="/shopping-cart-reactjs/cart" element={<Cart />} />
+            <Route path="*" element={<NoPage />} />
           </Routes>
         </Router>
       </ShopContextProvider>
