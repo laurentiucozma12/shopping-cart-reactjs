@@ -1,5 +1,6 @@
 # <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/> Shopping Cart ReactJs <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="react" width="30" height="30"/>
 
+- [Deployed Shopping Cart ReactJs](https://laurentiucozma12.github.io/shopping-cart-reactjs/)
 - This project is just for learning purpose.
 
 ## Start the server
